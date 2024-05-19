@@ -1,113 +1,48 @@
-/* Definindo estilo básico para o corpo do site */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilizando o cabeçalho e o menu de navegação */
+/* Estilos para o cabeçalho e o menu de navegação */
 header {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: #292929;
+    padding: 20px 0;
+    text-align: center;
 }
 
-/* Estilizando a lista do menu */
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
 }
 
-/* Estilizando os itens do menu */
 nav ul li {
-    margin: 0 15px;
+    display: inline;
+    margin-right: 20px;
 }
 
-/* Estilizando os links do menu */
 nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    transition: all 0.3s ease-in-out;
 }
 
-/* Adicionando efeito de hover nos links do menu */
 nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Estilizando a seção principal */
-main {
-    padding: 20px;
-    text-align: center;
-}
-
-/* Estilizando o formulário de contato */
-form {
-    max-width: 600px;
-    margin: 0 auto;
-    text-align: left;
-}
-
-/* Estilizando os labels */
-label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-/* Estilizando os campos de entrada e textarea */
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Estilizando o botão de envio */
-input[type="submit"] {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-/* Efeito de hover no botão de envio */
-input[type="submit"]:hover {
-    background-color: #555;
-}
-
-/* Estilos específicos para a página inicial */
-body {
-    /* Define a imagem de fundo e configura seu alinhamento e repetição */
-    background-image: url('por_do_sol.jpg');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
-    margin: 0; /* Remove margens padrão do corpo */
-    padding: 0; /* Remove preenchimento padrão do corpo */
-    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    color: #FF4500; /* Cor laranja para o hover */
 }
 
 /* Estilos para o conteúdo principal */
-.content {
-    text-align: center; /* Centraliza o conteúdo horizontalmente */
-    padding: 100px 0; /* Adiciona preenchimento superior e inferior */
-    color: #fff; /* Define a cor do texto como branca */
+main {
+    padding: 40px;
+    text-align: center;
 }
 
-/* Estilos para o título */
 h1 {
-    font-size: 3em; /* Define o tamanho da fonte */
+    font-size: 36px;
+    color: #333;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Estilos para o texto de boas-vindas */
 p {
-    font-size: 1.2em; /* Define o tamanho da fonte */
-    margin-top: 20px; /* Adiciona margem superior */
+    font-size: 18px;
+    color: #666;
+    font-family: 'Arial', sans-serif;
+    margin-top: 20px;
 }
