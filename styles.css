@@ -101,15 +101,16 @@ input[type="submit"]:hover {
 }
 
 .about-content table {
-    margin: 0 auto; /* Centraliza a tabela */
+    width: 100%;
+    margin-top: 20px; /* Adiciona espaço acima da tabela */
+}
+
+.about-content table td {
+    color: #fff; /* Branco */
 }
 
 .about-content h3 {
     color: #ff7f00; /* Laranja */
-}
-
-.about-content td {
-    color: #fff; /* Branco */
 }
 
 /* Estilos específicos para a página "Formação Educacional" */
@@ -126,12 +127,18 @@ input[type="submit"]:hover {
 }
 
 .education-content table {
-    margin: 0 auto; /* Centraliza a tabela */
+    width: 100%;
+    margin-top: 20px; /* Adiciona espaço acima da tabela */
+}
+
+.education-content table td {
+    color: #fff; /* Branco */
 }
 
 .education-content h3 {
     color: #ff7f00; /* Laranja */
 }
+
 
 .education-content td {
     color: #fff; /* Branco */
