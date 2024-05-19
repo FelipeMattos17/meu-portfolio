@@ -3,13 +3,13 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: 'Arial', sans-serif;
-    background-color: #222;
-    color: #fff;
+    background-color: #222; /* Preto */
+    color: #fff; /* Branco */
 }
 
 /* Estilos para o cabeçalho */
 header {
-    background-color: #222;
+    background-color: #000; /* Preto */
     text-align: center;
     padding: 20px;
 }
@@ -17,7 +17,7 @@ header {
 .header-title {
     margin: 0;
     font-family: 'Tahoma', sans-serif;
-    color: #ff7f00;
+    color: #ff7f00; /* Laranja */
 }
 
 /* Estilos para o menu de navegação */
@@ -33,7 +33,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #fff; /* Branco */
     font-family: 'Verdana', sans-serif;
 }
 
@@ -45,7 +45,7 @@ main {
 
 /* Estilos para os links */
 a {
-    color: #ff7f00;
+    color: #ff7f00; /* Laranja */
 }
 
 a:hover {
@@ -75,8 +75,8 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #ff7f00;
-    color: #fff;
+    background-color: #ff7f00; /* Laranja */
+    color: #fff; /* Branco */
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
@@ -84,24 +84,27 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #e65a00;
+    background-color: #e65a00; /* Laranja escuro */
 }
 
 /* Estilos específicos para a página "Sobre" */
 .about-content {
     max-width: 800px;
     margin: 0 auto;
-    background-color: #333;
+    background-color: #333; /* Preto escuro */
     padding: 20px;
     border-radius: 8px;
 }
 
 .about-content h2 {
-    color: #ff7f00;
+    color: #ff7f00; /* Laranja */
 }
 
 .about-content p {
-    color: #fff;
+    color: #fff; /* Branco */
+    line-height: 1.6;
+}
+
     line-height: 1.6;
 }
 
