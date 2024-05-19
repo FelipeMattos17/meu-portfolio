@@ -81,3 +81,33 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #555;
 }
+
+/* Estilos específicos para a página inicial */
+body {
+    /* Define a imagem de fundo e configura seu alinhamento e repetição */
+    background-image: url('por_do_sol.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Mantém a imagem fixa enquanto a página rola */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimento padrão do corpo */
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+}
+
+/* Estilos para o conteúdo principal */
+.content {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 100px 0; /* Adiciona preenchimento superior e inferior */
+    color: #fff; /* Define a cor do texto como branca */
+}
+
+/* Estilos para o título */
+h1 {
+    font-size: 3em; /* Define o tamanho da fonte */
+}
+
+/* Estilos para o texto de boas-vindas */
+p {
+    font-size: 1.2em; /* Define o tamanho da fonte */
+    margin-top: 20px; /* Adiciona margem superior */
+}
